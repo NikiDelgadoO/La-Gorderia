@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos1.css">
+    <link rel="icon" type="image/png" href="icono burguer.png">
+    <title>La Gordería</title>
+</head>
+<body>
+    <header>
+        <h1>LA GORDERÍA</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a La Gordería</h2>
+        <p>Disfruta de la mejor comida de gordura en un ambiente divertido.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menú</h2>
+        <div class="menu-columns">
+            <div>
+                <h3>Entradas</h3>
+                <img src="patata.png" alt="Entradas" width="80">
+                <ul>
+                    <li>Alitas de Pollo</li>
+                    <li>Patatas Fritas</li>
+                    <li>Aros de Cebolla</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Platos Principales</h3>
+                <img src="pizza.jpg" alt="Platos principales" width="80">
+                <ul>
+                    <li>Hamburguesa Clásica</li>
+                    <li>Costillas BBQ</li>
+                    <li>Pizza</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Postres</h3>
+                <img src="cookie.jpg" alt="Postres" width="80">
+                <ul>
+                    <li>Cookie a la sartén</li>
+                    <li>Brownie con Helado</li>
+                    <li>Cheesecake</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un restaurante dedicado a la mejor comida, con ingredientes frescos y recetas innovadoras.</p>
+        <img src="icono burguer.png" alt="Nuestro equipo" width="120">
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Dirección: Calle Hambuguesa 9, Alicante</p>
+        <p>Teléfono: 123456789</p>
+        <p>Email: info@lagorderia.com</p>
+        <form id="form-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 La Gordería. Todos los derechos reservados.</p>
+    </footer>
+
+    <button id="btn-subir" title="Subir al inicio" aria-label="Subir al inicio">↑</button>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
